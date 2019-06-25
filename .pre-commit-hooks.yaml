@@ -1,7 +1,6 @@
 - id: clang-format
   name: clang-format
   entry: clang-format
-  language: C/C++/CUDA 
   files: \.(cu|hpp|cuh|h|cpp|c)
   args: ["-i","-style=Google"]
   require_serial: false

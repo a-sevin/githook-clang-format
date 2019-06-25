@@ -1,6 +1,6 @@
-- id: clang-format
-  name: clang-format
-  entry: clang-format
+- id: clang-format2
+  name: clang-format2
+  entry: clang-format2
   language: system
   files: \.(cu|hpp|cuh|h|cpp|c)
   args: ["-i","-style=Google"]
